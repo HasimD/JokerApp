@@ -1,7 +1,7 @@
 package com.example.jokerapp.di
 
-import com.example.jokerapp.JokeRepository
 import com.example.jokerapp.api.JokeRetrofitService
+import com.example.jokerapp.repository.JokeRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

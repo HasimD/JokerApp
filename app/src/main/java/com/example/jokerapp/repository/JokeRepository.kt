@@ -1,4 +1,4 @@
-package com.example.jokerapp
+package com.example.jokerapp.repository
 
 import com.example.jokerapp.api.JokeResponse
 import com.example.jokerapp.api.JokeRetrofitService
@@ -8,7 +8,7 @@ class JokeRepository @Inject constructor(
     private val retrofitService: JokeRetrofitService
 ) {
 
-    suspend fun getRandomJoke() : JokeResponse{
+    suspend fun getRandomJoke(): JokeResponse {
         val apiResult = retrofitService.getRandomJoke()
         if (apiResult.isSuccessful) {
             val body = apiResult.body()
