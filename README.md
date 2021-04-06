@@ -1,4 +1,4 @@
 # JokerApp
 Assignment for SensorTower
 
-Project Uses: JETPACK COMPOSE, HILT, RETROFIT, MVVM.
+Project Includes: JETPACK COMPOSE, HILT, RETROFIT, MVVM.
